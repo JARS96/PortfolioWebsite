@@ -644,6 +644,41 @@ grid-column: 2/3;
 
 
 /*==================== PORTFOLIO ====================*/
+.portfolio_container{
+  overflow: initial;
+}
+
+.portfolio_content{
+  padding: 0 1.5rem;
+}
+
+.portfolio_img{
+  width: 60%;
+  border-radius: .5rem;
+  justify-self: center;
+}
+
+.portfolio_title{
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-0-5);
+}
+
+.portfolio_description{
+  margin-bottom: var(--mb-0-75);
+}
+
+.portfolio_button:hover .button_icon{
+  transform: translate(.25rem);
+}
+
+.swiper-button-prev{
+  left: -.5rem;
+}
+
+.swiper-button-next{
+  right: -.5rem;
+}
+
 
 
 /*==================== PROJECT IN MIND ====================*/
